@@ -1,56 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap");
 * {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 body {
   background: #AB68EB;
-  font-size: 10px;
-}
+  font-size: 10px; }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 100%;
-  height: 98vh;
-}
-
-.container .card {
-  width: 65%;
-  height: 509px;
-  background: #ffffff;
-  border-radius: 20px;
-  -webkit-box-shadow: 0px 20px 30px 0px rgba(27, 20, 27, 0.4);
-          box-shadow: 0px 20px 30px 0px rgba(27, 20, 27, 0.4);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+  height: 98vh; }
+  .container .card {
+    width: 60%;
+    height: 60vh;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 20px 30px 0px rgba(27, 20, 27, 0.3);
+    display: flex; }
+    .container .card .illustration {
+      width: 50%;
+      background-image: url("../images/illustration-box-desktop.svg"), url("../images/illustration-woman-online-desktop.svg"), url("../images/bg-pattern-desktop.svg");
+      background-repeat: no-repeat;
+      background-position: bottom 15vh left -10vh, bottom 10vh left -10vh, bottom -15vh right 15vh;
+      background-size: 35%, 88%, 110vh; }
+    .container .card .info {
+      background: #1B141B;
+      width: 50%;
+      height: 60vh; }
 
 .attribution {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   color: #ffffff;
   font-size: 13px;
   font-weight: 700;
   text-align: center;
   width: 100%;
-  background: #1B141B;
-}
+  background: #1B141B; }
+  .attribution a {
+    text-decoration: none;
+    color: #ffffff; }
 
-.attribution a {
-  text-decoration: none;
-  color: #ffffff;
-}
 /*# sourceMappingURL=styles.css.map */
