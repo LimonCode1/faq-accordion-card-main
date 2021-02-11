@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;400;700&display=swap");
 * {
   padding: 0;
   margin: 0; }
@@ -31,9 +32,27 @@ body {
         width: 35%;
         margin: 25vh -10vh; }
     .container .card .info {
-      background: #1B141B;
       width: 50%;
       height: 60vh; }
+      .container .card .info h1 {
+        font-size: 2.5rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 700;
+        margin-top: 8vh;
+        margin-bottom: 3vh; }
+      .container .card .info .accordion {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        font-family: "libre franklin", sans-serif;
+        font-weight: 400;
+        border-bottom: 2px solid #E8E8E8;
+        width: 80%;
+        padding: 2vh 0vh; }
+        .container .card .info .accordion img {
+          float: right;
+          margin-right: 2vh; }
+        .container .card .info .accordion .text-accordion {
+          display: none; }
 
 .attribution {
   font-family: "poppins", sans-serif;
