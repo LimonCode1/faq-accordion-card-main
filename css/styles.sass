@@ -12,7 +12,7 @@ $purple: #AB68EB
     margin: 0
 body
     background: $purple
-    font-size: 10px
+    font-size: 12px
 .container
     display: flex
     align-items: center
@@ -47,21 +47,25 @@ body
                 font-weight: 700
                 margin-top: 8vh
                 margin-bottom: 3vh
-            .accordion
-                font-size: .9rem
+            .accordion-item
+                font-size: 12px
                 letter-spacing: 1px
                 font-family: 'libre franklin', sans-serif
                 font-weight: 400
                 border-bottom: 2px solid $grey
                 width: 80%
                 padding: 2vh 0vh
-                span:hover
-                    color: $orange
-                    cursor: pointer
+                h2
+                    font-size: 14px
+                    font-weight: 400
+                    &:hover
+                        color: $orange
+                        cursor: pointer
                 img
                     float: right
                     margin-right: 2vh
                 .text-accordion
+                    margin-top: 10px
                     display: none
 .attribution
     font-family: 'poppins', sans-serif
@@ -105,6 +109,14 @@ body
             .accordion
                 font-size: 12px
                 width: 90%
-                position: center center
-                img
-                    margin: 0
+                .accordion-item
+                    width: 100%
+                    h2
+                        font-size: 12px
+                        img
+                            margin: 0
+                    .text-accordion
+                        font-size: 12px
+                        margin-top: 5px
+                        // text-align: center
+                        display: block

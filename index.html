@@ -9,7 +9,7 @@
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
 		/>
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/styles.min.css" />
 		<title>Frontend Mentor | FAQ Accordion Card</title>
 	</head>
 	<body>
@@ -30,65 +30,57 @@
 				<div class="info">
 					<h1>FAQ</h1>
 					<div class="accordion">
-						<span>
-							How many team members can I invite?
-							<img src="./images/icon-arrow-down.svg" />
-						</span>
-						<div class="text-accordion">
-							<span>
+						<div class="accordion-item">
+							<h2>
+								How many team members can I invite?
+								<img src="./images/icon-arrow-down.svg" />
+							</h2>
+							<p class="text-accordion">
 								You can invite up to 2 additional users on the Free plan. There
 								is no limit on team members for the Premium plan.
-							</span>
+							</p>
 						</div>
-					</div>
-					<div class="accordion">
-						<span>
-							What is the maximum file upload size?
-							<img src="./images/icon-arrow-down.svg"
-						/></span>
-						<div class="text-accordion">
-							<span>
+						<div class="accordion-item">
+							<h2>
+								What is the maximum file upload size?
+								<img src="./images/icon-arrow-down.svg" />
+							</h2>
+							<p class="text-accordion">
 								No more than 2GB. All files in your account must fit your
 								allotted storage space.
-							</span>
+							</p>
 						</div>
-					</div>
-					<div class="accordion">
-						<span>
-							How do I reset my password?
-							<img src="./images/icon-arrow-down.svg" />
-						</span>
-						<div class="text-accordion">
-							<span>
+						<div class="accordion-item">
+							<h2>
+								How do I reset my password?
+								<img src="./images/icon-arrow-down.svg" />
+							</h2>
+							<p class="text-accordion">
 								Click “Forgot password” from the login page or “Change password”
 								from your profile page.A reset link will be emailed to you.
-							</span>
+							</p>
 						</div>
-					</div>
 
-					<div class="accordion">
-						<span>
-							Can I cancel my subscription?
-							<a><img src="./images/icon-arrow-down.svg" /></a>
-						</span>
-						<div class="text-accordion">
-							<span>
+						<div class="accordion-item">
+							<h2>
+								Can I cancel my subscription?
+								<a><img src="./images/icon-arrow-down.svg" /></a>
+							</h2>
+							<p class="text-accordion">
 								Yes! Send us a message and we’ll process your request no
 								questions asked.
-							</span>
+							</p>
 						</div>
-					</div>
 
-					<div class="accordion">
-						<span>
-							Do you provide additional support?
-							<img src="./images/icon-arrow-down.svg"
-						/></span>
-						<div class="text-accordion">
-							<span>
+						<div class="accordion-item">
+							<h2>
+								Do you provide additional support?
+								<img src="./images/icon-arrow-down.svg" />
+							</h2>
+							<p class="text-accordion">
 								Chat and email support is available 24/7. Phone lines are open
 								during normal business hours.
-							</span>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -106,5 +98,8 @@
 				>Carlos Andres Sanchez</a
 			>.
 		</div>
+
+		<script src="jquery.min.js"></script>
+		<script src="index.js"></script>
 	</body>
 </html>
